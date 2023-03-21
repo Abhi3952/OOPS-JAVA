@@ -1,0 +1,20 @@
+
+class A{
+    static void m1(){
+        System.out.println("parent class A ");
+    }
+}
+class b extends A{
+   static void m2(){
+        System.out.println("child class B");
+     }
+}
+public class Inheritencee {
+    public static void main(String[] args) {
+        A ob1=new A();
+        b ob2=new b();
+        b.m1();
+        b.m2();       
+    }
+    }
+    
