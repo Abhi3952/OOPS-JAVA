@@ -1,0 +1,24 @@
+
+class A{
+    void m1(){
+        System.out.println("parent class A ");
+    }
+}
+class b extends A{
+   //method overriring
+   void m1(){
+        System.out.println("child class B");
+     }
+}
+public class Methodoverride {
+    public static void main(String[] args) {
+        A ob1=new A();
+        b ob2=new b();
+        ob2.m1();
+        ob1.m1();
+           
+    }
+    }
+    
+
+
